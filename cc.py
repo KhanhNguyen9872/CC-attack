@@ -214,11 +214,12 @@ def ParseUrl(original_url):
 		if protocol == "https":
 			port = 443
 	target = check[0]
-	try:   
-                port=int(sys.argv[9])
-        except:
-                port = int(input("Input port: "))
-        print(port)
+	try:
+		print(sys.argv)
+		port=int(sys.argv[7])
+	except:
+		port = int(input("Input port: "))
+	print(port)
 	if len(tmp) > 1:
 		path = url.replace(website,"",1)#get the path www.example.com/xxx ==> /xxx
 
